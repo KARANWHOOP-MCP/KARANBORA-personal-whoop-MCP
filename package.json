@@ -1,0 +1,17 @@
+{
+“name”: “whoop-personal-mcp”,
+“version”: “1.0.0”,
+“private”: true,
+“description”: “Personal WHOOP integration for Claude using MCP”,
+“type”: “module”,
+“scripts”: {
+“start”: “node index.js”
+},
+“engines”: {
+“node”: “>=20”
+},
+“dependencies”: {
+“@modelcontextprotocol/sdk”: “^1.32.1”,
+“zod”: “^4.0.0”
+}
+}
